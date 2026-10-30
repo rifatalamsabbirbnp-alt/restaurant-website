@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fffaf2;
+    color: #29231f;
+    text-align: center;
+}
+
+h1 {
+    color: #c0392b;
+    font-size: 36px;
+    margin-top: 100px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}nav {
+    background-color: #29231f;
+    padding: 18px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    position: sticky;
+top: 0;
+z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f1b24a;
+}.hero {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #3b2118, #8b2e22);
+    color: white;
+}
+
+.hero .hero-tag {
+    color: #f1b24a;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 42px;
+    max-width: 750px;
+    margin: 20px auto;
+    line-height: 1.2;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+.hero-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 26px;
+    background-color: #f1b24a;
+    color: #29231f;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.hero-button:hover {
+    background-color: #ffd27a;
+}.menu-section {
+    padding: 70px 20px;
+    background-color: #fffaf2;
+}
+
+.menu-section h2 {
+    color: #8b2e22;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 1100px;
+    margin: 35px auto 0;
+}
+
+.menu-card {
+    background-color: white;
+    padding: 25px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+    border: 1px solid #f0e5d8;
+    transition: transform 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-6px);
+}
+
+.menu-card h3 {
+    color: #29231f;
+    font-size: 22px;
+}
+
+.menu-card p {
+    font-size: 16px;
+    color: #655a52;
+}
+
+.menu-card .price {
+    color: #c0392b;
+    font-size: 22px;
+    font-weight: bold;
+}.menu-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 15px;
+}@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .menu-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-card {
+        width: 85%;
+        max-width: 300px;
+        box-sizing: border-box;
+    }
+
+    nav {
+        gap: 15px;
+        padding: 15px 10px;
+    }
+}.about-section {
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+
+.about-section h2 {
+    color: #8b2e22;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #655a52;
+    font-size: 17px;
+    line-height: 1.8;
+}.contact-section {
+    padding: 60px 20px;
+    background-color: #29231f;
+    color: white;
+}
+
+.contact-section h2 {
+    color: #f1b24a;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 16px;
+    line-height: 1.8;
+    overflow-wrap: anywhere;
+}.footer {
+    background-color: #1f1916;
+    color: white;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}.menu-card {
+    transition: transform 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-6px);
+}html {
+    scroll-behavior: smooth;
+}nav a {
+    transition: color 0.3s ease;
+}.menu-image {
+    transition: transform 0.4s ease;
+}
+
+.menu-card:hover .menu-image {
+    transform: scale(1.05);
+}.logo {
+    color: #f1b24a;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 30px;
+}.order-button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background-color: #c0392b;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+    background-color: #8b2e22;
+}
